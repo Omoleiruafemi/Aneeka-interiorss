@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent-div {
+    width: 100%;
+    /* margin-left: 100px; */
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.interior {
+    /* margin-left: 5px; */
+    padding: 0 7px;
+}
+.slogan {
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.mySideNav {
+    width: 27%;
+    background-color: rgb(3, 32, 8);
+    height: 100%;
+    position: fixed;
+    
+}
+/* .interior { Position: relative */
+.null {
+    width: 100%;
+    height: 200px !important;
+    /* object-fit: cover; */
+
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-right: 0px;
+}
+img {
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+}
+.neeka {
+    height: 300px;
+}
+#aneeks {
+    height: 200px;
+}
+.mySideNav a {
+    text-decoration: none;
+    color: black; 
+    /* padding: 30px; */
+    margin: 15px;
+    color: white;
+    
+}
+.company {
+    padding-top: 70px;
+    margin-left: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    }
+nav  li {
+    padding: 11px;
+    text-align: center;
+    font-size: x-large;
+    list-style: none;
+
+}
+
+
+.mySideNav a:hover {
+    color: black;
+    font-weight: 30;
+    background-color: white;
+    padding: 8px;
+    border-radius: 18px;
+
+}
+.mySideNav:hover {
+    box-shadow: 4px 1px 3px 2px rgba(0, 0, 0, 0.4);
+}
+.Unfazed {
+    padding-top: 100px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+span {
+    background-color: rgb(2, 65, 12);
+    color: rgb(2, 65, 12);
+    border-radius: 8px;
+    font-size: small;
+    
+}
+#showcase {
+    color: rgb(2, 65, 12);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#services {
+    color: rgb(2, 65, 12);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#packages {
+    color: rgb(2, 65, 12);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#designers {
+    color: rgb(2, 65, 12);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contact {
+    color: rgb(2, 65, 12);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* h1 {
+     font-size: 37px; 
+} */
+.first {
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+.second {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.third {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.fourth {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.fifth {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.sixth {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.second-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 2px;
+    grid-template-rows: 1fr;
+    
+} 
+.sub-first {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-right: 10px;
+
+}
+.sub-second {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-right: 10px;
+    
+}
+.sub-third {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-right: 10px;
+    
+}
+
+.container {
+    box-shadow:2px 1px 3px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px 6px ;
+}
+.container:hover{
+    transform: translateY(10px);
+}
+
+.first:hover{
+    filter: contrast(160%);
+}
+.second:hover{
+    filter: contrast(160%);
+}
+.third:hover{
+    filter: contrast(160%);
+}
+.fourth:hover{
+    filter: contrast(160%);
+}
+.fifth:hover{
+    filter: contrast(160%);
+}
+.sixth:hover{
+    filter: contrast(160%);
+}
+.advanced h1{
+    border: 1px solid rgb(3, 32, 8);
+    background-color: rgb(3, 32, 8);
+    color: white;
+    font-size: xx-large;
+}
+.eight{
+    background-color: rgb(212, 206, 206);
+}
+.chi{
+    border-bottom: 1px solid rgb(146, 141, 141);
+}
+.basic h1 {
+    border: 1px solid grey;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-size: xx-large;
+ 
+}
+.seven{
+    background-color: rgb(212, 206, 206);
+
+    
+}
+.chip{
+    border-bottom: 1px solid rgb(146, 141, 141);
+    
+}
+
+.table-package {
+    display: grid;
+    width: fix-content;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 10px;
+    font-size: 20px;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: large;
+    margin-top: 10px;
+    /* width: 100%; */
+    border: 2px solid #053a07;
+}
+button:hover {
+    background-color: #053a07;
+    color: white;
+    border-radius: 5px;
+}
+.end a {
+    color: white; 
+    text-decoration: none;
+}
+.end{
+    color: white;
+    text-align: center;
+    background-color: #053a07;
+    padding: 30px;
+    font-size: xx-large;
+
+}
+.end:hover {
+    transform: translateY(-10px);
+     border-radius: 20px;
+    box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+ } 
+@media screen and (min-width: 290px) {
+    .reduce{
+        font-size: 30px;
+        
+    }
+    .bar{
+        font-size: 20px;
+    }
+    .Unfazed{
+        font-size: 68px;
+    }
+    
+ }
+@media screen and (max-width: 290px) {
+    .reduce{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .mySideNav a {
+        font-size: 20px;
+    }
+    .mySideNav a:hover {
+        padding: 6px;
+    }
+    .close {
+        font-size: large;
+    }
+    .bar{
+        font-size: 20px;
+    }
+    .Unfazed{
+        font-size: 40px;
+    }
+    .slogan {
+        font-size: 12px;
+    }
+    #showcase, #services, #designers, #Packages, #Contact {
+        font-size: 35px;
+    }
+ }
+ 
+.top_nav {
+    background-color: #053a07;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
+    display: none;
+}
+.top_nav b {
+    margin-right: 20px;
+}
+.close {
+    display: none;
+    
+}
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bar {
+    
+    padding: 4px;
+    border: 3px solid rgba(141, 139, 139, 0.781);
+    
+}
+
+.bar:hover {
+    background-color: rgba(83, 83, 83, 0.781);
+    padding: 8px;
+}
+.close {
+    text-align: center;
+    font-size: xx-large;
+}
+.close:hover {
+    text-align: center;
+    background-color: rgba(70, 70, 70, 0.781);
+    padding: 7px;
+
+}
+#aneeks {
+    width: auto;
+}
+
+.footer {
+     /* position: absolute;  */
+    /* bottom: 0; */
+    background-color: rgb(2, 65, 12);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+
+
+}
+.hero {
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: #053a07;
+    color: white;
+    padding: 13px;
+}
+
+.media, .links, .company-things, .quick {
+    font-size: 16.5px;
+    padding: 10px;
+} 
+.media {
+    font-size: small;
+    padding-top: 15px;
+} 
+.company-things a {
+    color: white;
+    text-decoration: none;
+    
+}
+li {
+    list-style: none;
+}
+
+.tired {
+    margin-top: -10px;
+}
+@media (max-width: 752px) {
+    .table-package {
+        display: block;
+    }
+
+    }
+
+@media (max-width: 414px) {
+        .company {
+            font-size: 1.8rem;
+        }
+    
+        }
+
+
+@media (min-width: 756px) {
+    #parent-div {
+        grid-template-columns: 30% 70%;
+    }
+    .mySideNav {
+        width: 27%;
+        display: block;
+        z-index: 3;
+    }
+
+}
+@media (max-width: 755px) {
+    .mySideNav {
+        display: none;
+        width: 40%;
+        box-shadow: 100px 100% grey;
+        z-index: 3;
+        box-shadow: 4px 1px 3px 500px rgba(0, 0, 0, 0.4);
+    }
+    .second-grid {
+        display: block;
+    }
+    .top_nav {
+        display: block;
+        z-index: 3;
+    }
+    #parent-div {
+        grid-template-columns: 0 100%;
+    }
+    .close {
+        display: block;
+    }
+    .mySideNav:hover {
+        box-shadow: 4px 1px 3px 500px rgba(0, 0, 0, 0.4);
+    }
+    .container:hover{
+        transform: translateY(10px);
+    }
+    
+    .first:hover{
+        filter: contrast(120%);
+        
+    }
+    .second:hover{
+        filter: contrast(120%);
+    }
+    .third:hover{
+        filter: contrast(120%);
+    }
+    .fourth:hover{
+        filter: contrast(120%);
+    }
+    .fifth:hover{
+        filter: contrast(120%);
+    }
+    .sixth:hover{
+        filter: contrast(120%);
+    }
+    .footer-name{
+        width: 100%;
+    }
+    .quick{
+        width: 100%;
+    }
+    .company-things{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+    .footer > h2{
+        font-size: 21px;
+    }
+    
+    
+}
+form {
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+.submit {
+    padding: 20px;
+    background-color: #053a07;
+    color: white;
+    font-size: x-large;
+}
